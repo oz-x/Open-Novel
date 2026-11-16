@@ -1,11 +1,11 @@
 # Instala o actualiza Open Novel en Windows compilándolo desde una rama del repositorio (main por defecto).
 # Es el equivalente de instalar.sh.
 #
-#   git clone https://github.com/evilrender23/Open-Novel
+#   git clone https://github.com/oz-x/Open-Novel
 #   powershell -ExecutionPolicy Bypass -File Open-Novel\instalar.ps1 [-Repo URL|RUTA] [-Rama main] [-Destino CARPETA]
 #
 # O en una línea:
-#   irm https://raw.githubusercontent.com/evilrender23/Open-Novel/main/instalar.ps1 | iex
+#   irm https://raw.githubusercontent.com/oz-x/Open-Novel/main/instalar.ps1 | iex
 #
 # Desde un clon, sin -Repo, instala desde el origin de ese clon.
 #
@@ -25,7 +25,7 @@
 # por la versión nueva y la vuelve a abrir.
 # Se guarda sin BOM a propósito: `irm | iex` no lo admite.
 param(
-    [string]$Repo = 'https://github.com/evilrender23/Open-Novel',
+    [string]$Repo = 'https://github.com/oz-x/Open-Novel',
     [string]$Rama = 'main',
     [string]$Destino = (Join-Path $env:LOCALAPPDATA 'OpenNovel'),
     [switch]$Actualizar,

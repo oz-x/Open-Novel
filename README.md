@@ -56,13 +56,13 @@ con tu cuenta (el instalador te lo recuerda si falta).
 **macOS y Linux:**
 
 ```
-curl -fsSL https://raw.githubusercontent.com/evilrender23/Open-Novel/main/instalar.sh | bash
+curl -fsSL https://raw.githubusercontent.com/oz-x/Open-Novel/main/instalar.sh | bash
 ```
 
 **Windows** (PowerShell):
 
 ```
-irm https://raw.githubusercontent.com/evilrender23/Open-Novel/main/instalar.ps1 | iex
+irm https://raw.githubusercontent.com/oz-x/Open-Novel/main/instalar.ps1 | iex
 ```
 
 | | Código y caché | App |
