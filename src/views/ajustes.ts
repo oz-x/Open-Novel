@@ -495,9 +495,9 @@ function actualizaciones(): HTMLElement {
     seccion(
       "Instalar o reinstalar",
       h("p", { class: "muted" }, "macOS y Linux:"),
-      h("pre", { class: "ag-pre" }, "curl -fsSL https://raw.githubusercontent.com/evilrender23/Open-Novel/main/instalar.sh | bash"),
+      h("pre", { class: "ag-pre" }, "curl -fsSL https://raw.githubusercontent.com/oz-x/Open-Novel/main/instalar.sh | bash"),
       h("p", { class: "muted" }, "Windows (PowerShell):"),
-      h("pre", { class: "ag-pre" }, "irm https://raw.githubusercontent.com/evilrender23/Open-Novel/main/instalar.ps1 | iex"),
+      h("pre", { class: "ag-pre" }, "irm https://raw.githubusercontent.com/oz-x/Open-Novel/main/instalar.ps1 | iex"),
       h("p", { class: "muted" }, "Registro del progreso en registro/actualizacion.log y salida de la compilación en registro/compilacion.log, dentro de la carpeta de instalación."),
     ),
   );

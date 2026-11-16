@@ -26,7 +26,7 @@ export interface AccionesMenu {
   tema: () => void;
 }
 
-const REPO = "https://github.com/evilrender23/Open-Novel";
+const REPO = "https://github.com/oz-x/Open-Novel";
 let conNovela: MenuItem[] = [];
 
 export function esMac(): boolean {
